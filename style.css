@@ -3,9 +3,10 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial;
     padding: 50px;
     text-align: center;
+    background: darkviolet;
 }
 .container{
     height: 250px;
@@ -15,7 +16,8 @@ body{
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
     box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3); 
-    background: linear-gradient(45deg, #7b00e0, #ae31d9);
+    /* background: linear-gradient(45deg, #7b00e0, #ae31d9); */
+    background: darkviolet;
 }
 .container:hover{
     height: 470px;
@@ -53,16 +55,13 @@ body{
     color: #fff;
     font-size: 17px;
     line-height: 0px;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 .content{
     color: #fff;
     font-size: 17px;
-    /* margin-top: 10px; */
-    padding: 1px 20px 10px 20px !important;
-}
-.content p{
     margin-top: 10px;
+    padding: 1px 20px 10px 20px !important;
 }
 .content .button{
     display: flex;
@@ -89,7 +88,7 @@ body{
 }
 .container .icons{
     position: relative;
-    margin-top: -430px;
+    margin-top: -435px;
     margin-left: 10px;
     list-style: none;
 }
